@@ -3,3 +3,48 @@ body {
   background-color: #111;
   color: #fff;
 }
+
+.Parent-div{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Card{
+  height: 350px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #111;
+  padding: 40px;
+}
+.Card img{
+  height: 200px;
+  width: 290px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.Card .middle h1{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 0%;
+}
+.Card .middle p{
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Card .bottom{
+  text-align: center;
+}
+.Card .bottom button{
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 20px;
+  background-color: rgb(1, 68, 107);
+  color: white;
+}
