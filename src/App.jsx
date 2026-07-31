@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "./Components/Card";
+import Form from "./Components/Form";
 
 const App = () => {
   const [count, setcount] = useState(0);
@@ -35,7 +36,7 @@ const App = () => {
           );
         })}
       </div>
-      <h1 className="text-6xl font-bold text-center">Counter</h1>
+      <h1 className="text-6xl font-bold text-center mt-27">Counter</h1>
       <div className="bg-teal-800 h-60 flex flex-col items-center">
       <h1 className="text-4xl font-bold">count : {count}</h1>
       <button
@@ -54,6 +55,10 @@ const App = () => {
       >
         Dec
       </button>
+      </div>
+      <h1 className="text-6xl font-bold text-center mt-27">Form handling/ Two way Data binding</h1>
+      <div className="h-90 bg-gray-900">
+        <Form />
       </div>
     </>
   );
