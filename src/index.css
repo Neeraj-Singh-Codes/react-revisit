@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   margin: 0;
   background-color: #111;
@@ -11,8 +13,8 @@ body {
   justify-content: space-between;
 }
 .Card{
-  height: 350px;
-  width: 300px;
+  height: 420px;
+  width: 370px;
   border: none;
   border-radius: 20px;
   background-color: #fff;
@@ -31,10 +33,12 @@ body {
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 0%;
+  margin-top: 7%;
 }
 .Card .middle p{
   font-size: larger;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 5%;
 }
 
 .Card .bottom{
@@ -47,4 +51,5 @@ body {
   border-radius: 20px;
   background-color: rgb(1, 68, 107);
   color: white;
+  margin-top: 4%;
 }
